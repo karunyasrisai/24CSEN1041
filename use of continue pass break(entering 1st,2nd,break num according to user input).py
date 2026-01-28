@@ -5,7 +5,7 @@ break_num = int(input("Enter the valid num:"))
 for i in range(first_num, second_num):
     if i % 2 == 0:
         continue 
-    elif i == 133:
+    elif i == break_num:
         break    
     else:
         pass      
